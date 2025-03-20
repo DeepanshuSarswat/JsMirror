@@ -2,7 +2,7 @@ const jsonArray = [
     { id: 1, name: "Deepanshu", role: "Frontend" },
     { id: 2, name: "Raj", role: "Backend" },
     { id: 3, name: "Aman", role: "Frontend" },
-    { id: 4, name: "Kamesh", role: "Backend" },
+    { id: 4, name: "Kamal", role: "Backend" },
     { id: 5, name: "Suresh", role: "Full Stack" }
 ];
 
