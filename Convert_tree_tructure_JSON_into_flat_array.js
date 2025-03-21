@@ -1,3 +1,5 @@
+// We have a tree structure JSON, where each object has a children key that contains nested objects. We want to remove the hierarchy and store everything in a single-level array.
+
 function flattenTree(data){
     const output  = [];
 
