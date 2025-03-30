@@ -1,0 +1,22 @@
+// You need to implement a function curryFn that allows repeated addition of numbers while maintaining a running sum. The function should behave in two ways:
+
+// When called with a number, it adds the number to the sum and returns another function that can accept the next number.
+// When called without arguments (or with undefined), it should return the accumulated sum.
+
+function curryFn(){
+    let value = 0;
+    return function add(arg){
+        if(arg){
+            value = value + arg;
+        }
+        return value;
+    }
+}
+
+const sum = curryFn();
+
+console.log(sum(1));
+console.log(sum(2));
+console.log(sum(3));
+console.log(sum(4));
+console.log(sum(5));
