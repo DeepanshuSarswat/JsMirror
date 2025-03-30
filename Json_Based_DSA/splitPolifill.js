@@ -22,6 +22,6 @@ String.prototype.mySplit = function (divider) {
     return output;
 };
 
-const line = 'dog ran across the park and jumped over the fence';
+const line = 'the dog ran across the park and jumped over the fence';
 const lineArr = line.mySplit("the");
 console.log(lineArr, "lineArr");
